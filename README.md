@@ -14,8 +14,8 @@ required to open up the serial connection. Then download the pydrinks
 repo. You can use the following git command or download the
 [.zip file](https://github.com/barbot-team/pydrinks):
 
-> git clone https://github.com/barbot-team/pydrinks.git
+    git clone https://github.com/barbot-team/pydrinks.git
 
 Then `cd` into the pydrinks directory and run the setup.py script to install:
 
-> $ python setup.py install
+    $ python setup.py install
