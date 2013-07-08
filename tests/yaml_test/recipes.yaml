@@ -1,7 +1,13 @@
--
-  name: Manhattan
+# Example Recipes File
+# Chris W.
+
+- name: Manhattan
   description: A nice drink to have.
   ingredients:
     - Whiskey:  3 # parts
     - Vermouth: 1 # parts
-  
+- name: Perfect Manhattan
+  description: An altered version of a Manhattan.
+  ingredients:
+    - Whiskey: 2 # parts
+    - Vermouth: 2 # parts
