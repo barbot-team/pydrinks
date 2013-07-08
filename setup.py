@@ -32,7 +32,7 @@ setup(
     author = "Chris Woodall, Benjamin Havey",
     author_email = "chris.j.woodall@gmail.com, benhavey@bu.edu",
     url = "n/a",
-    packages = ['pydrinks'],
+    packages = ['lib/pydrinks'],
     license = "Python",
     long_description = "Python Library for making mixed drinks with BarBot v0.1 'Little Brobot'",
     classifiers = [
@@ -59,7 +59,7 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Topic :: Terminals :: Serial',
     ],
-    requires =['pyserial'],
+    requires =['pyserial', 'pyyaml'],
     platforms = 'any',
     cmdclass = {'build_py': build_py},
 )

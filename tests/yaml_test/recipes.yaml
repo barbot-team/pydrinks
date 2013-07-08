@@ -1,0 +1,7 @@
+-
+  name: Manhattan
+  description: A nice drink to have.
+  ingredients:
+    - Whiskey:  3 # parts
+    - Vermouth: 1 # parts
+  
