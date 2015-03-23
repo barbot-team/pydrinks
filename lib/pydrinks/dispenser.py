@@ -1,4 +1,4 @@
-class Dire[lspenser(object):
+class Dispenser(object):
     def __init__(self, name, on_cmd, off_cmd, description=""):
         self.name = name
         self.on_cmd = on_cmd
