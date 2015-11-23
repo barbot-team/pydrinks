@@ -1,8 +1,9 @@
 model: brobot-v0.1
-serial:
-        port: /dev/tty.usb #fix
-        speed: 9600
+serial_port:
+  port: /dev/tty.usb #fix
+  baud: 9600
 dispensers:
-        Whiskey: 0
-        Sweet Vermouth: 1
-
+  - dispenser: Whiskey
+    slot: 0
+  - dispenser: Vermouth
+    slot: 1
