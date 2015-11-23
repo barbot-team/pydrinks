@@ -1,13 +1,17 @@
-# Example Recipes File
+# Example Recipes File. Revised
 # Chris W.
-
-- name: Manhattan
-  description: A nice drink to have.
-  ingredients:
-    - Whiskey:  3 # parts
-    - Vermouth: 1 # parts
-- name: Perfect Manhattan
-  description: An altered version of a Manhattan.
-  ingredients:
-    - Whiskey: 2 # parts
-    - Vermouth: 2 # parts
+drinks:
+  - name: Manhattan
+    description: A nice drink to have.
+    ingredients:
+      - dispenser: Whiskey
+        parts: 3
+      - dispenser: Vermout
+        parts: 1
+  - name: Perfect Manhattan
+    description: An altered version of a Manhattan.
+    ingredients:
+      - dispenser: Whiskey
+        parts: 2 # parts
+      - dispenser: Vermouth
+        parts: 2 # parts
